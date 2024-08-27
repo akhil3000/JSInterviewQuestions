@@ -11,3 +11,4 @@ function displaySum(sum)
 }
 
 myCalculator(5,6,displaySum);
+//Callback is a function whis is passed as argument to another function it is also called as higher order function
