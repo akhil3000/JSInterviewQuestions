@@ -26,6 +26,7 @@ how2.push(15);
 console.log("The elements of array 2 after Copy without spread "+how2);
 console.log("The elements of array1 after Copy without spread "+how1);
 
+//In Shallow Copy arrays memory position is same if element is added to array2 it also added to array1 because they are in same memory reference
 
 //Copy with spread(Deep copy)
 
@@ -34,7 +35,7 @@ let hii2=[...hii1];
 hii2.push(15);
 console.log("The elements of array2 after Copy with spread "+hii2);
 console.log("The elements of array1 after Copy with spread "+hii1);
-
+//In Deep Copy arrays memory position is different if element is added to array2 it is not added to array1
 //Expand without spread
 
 let hey1=[10,11,12,13];
