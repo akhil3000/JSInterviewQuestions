@@ -12,7 +12,7 @@ console.log(sum(1)(2)(3));
 //currying with bind
 
 let multiply=function(x,y){
-    console.log(x*y);
+    return (x*y);
 }
 
 let multiplyByTwo=multiply.bind(this,3);
